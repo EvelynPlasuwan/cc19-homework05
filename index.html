@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-cart page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <div class="logo">
+                <img src="./pic/Logo.png">
+            </div>
+            <div class="navigator">
+                <ul>
+                    <li>ABOUT US</li>
+                    <li>PASSCARD</li>
+                    <li>PROFILE</li>
+                </ul>
+            </div>
+            <div class="login">
+                <img src="/homework05/pic/search.svg" id="search">
+                <div class="cartitem"><img src="/homework05/pic/cart-icon.png">
+                    <p>1</p>
+                </div>
+                <a href="#">LOGIN</a>
+                <span style="color: rgb(234, 234, 234);">|</span>
+                <a href="#">SIGN UP</a>
+            </div>
+        </div>
+    </header>
+    <!-- ---------------------------------------------------------- -->
+    <div class="mycart">
+        <h2>My Cart</h2>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    <div class="container">
+        <div class="container1">
+            <div class="product1">
+                <img src="./pic/trash.svg" class="trash">
+                <img src="./pic/GoogleDocPasscard.png" class="google">
+                <div class="productinfo">
+                    <p>Google Docs</p>
+                    <div class="po-product">
+                        <div class="po 1"> </div>
+                        <div class="popo"> </div>
+                        <div class="popo"> </div>
+                        <select name="level" id="level">
+                            <option value="LV 1-3">LV 1-3</option>
+                            <option value="LV 2-3">LV 2-3</option>
+                            <option value="LV 3-3">LV 3-3</option>
+                        </select>
+                    </div>
+                    <div class="price">
+                        <span>THB 150</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product1">
+                <img src="./pic/trash.svg" class="trash">
+                <img src="./pic/GoogleSlidePasscard.png" class="google">
+                <div class="productinfo">
+                    <p>Google Docs</p>
+                    <div class="po-product">
+                        <div class="po 1"> </div>
+                        <div class="po 1"> </div>
+                        <div class="po 1"> </div>
+                        <div class="popo"> </div>
+                        <select name="level" id="level">
+                            <option value="LV 1-4">LV 1-4</option>
+                            <option value="LV 2-4">LV 2-4</option>
+                            <option value="LV 3-4">LV 3-4</option>
+                            <option value="LV 4-4">LV 4-4</option>
+                        </select>
+                    </div>
+                    <div class="price">
+                        <span>THB 150</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="order">
+                <h3>Order Info</h3>
+            </div>
+            <div class="sub">
+                <span>Subtotal</span>
+                <span>THB 300</span>
+            </div>
+            <div class="coupon">
+                <div><img src="./pic/coupon.svg"></div>
+                <div class="inputcode">
+                    <input type="text" placeholder="Promotion code">
+                </div>
+                <div><button>APPLY</button></div>
+            </div>
+            <div class="payment">
+                <span>Total payment</span>
+                <p><b>THB 300</b></p>
+            </div>
+            <div class="checkout">
+                <button><b>LOG IN TO CHECKOUT</b></button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
